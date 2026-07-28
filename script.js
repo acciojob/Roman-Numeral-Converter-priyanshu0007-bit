@@ -11,7 +11,7 @@ function convertToRoman(num) {
 
   //your code here
 	let ans="";
-	for(let i=0;i<obj.length;i++){
+	for(let i=0;i<7;i++){
 		while(num>=obj[i][1]){
 			ans+=obj[i][0];
 			num-=obj[i][1];
